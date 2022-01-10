@@ -1,0 +1,32 @@
+//COLORS PRIMARY
+$color-primary-very-dark-magenta: hsl(300, 43%, 22%);
+$color-primary-soft-pink: hsl(333, 80%, 67%);
+
+//COLORS NEUTRAL
+$color-neutral-dark-grayish-magenta: hsl(303, 10%, 53%);
+$color-neutral-light-grayish-magenta: hsl(300, 24%, 96%);
+$color-neutral-white: hsl(0, 0%, 100%);
+
+//FONT SIZE VARIABLES
+$fs-small: 1.5rem;
+$fs-large: 5rem;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  border: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem = 10px 10px/16px = 62.5%
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
