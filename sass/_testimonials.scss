@@ -10,16 +10,19 @@
     background: $color-primary-very-dark-magenta;
     padding: 3rem;
     width: 31%;
+    position: relative;
     border-radius: 10px;
     overflow: hidden;
 
     &:nth-child(2) {
       justify-self: center;
+      position: relative;
       top: 2rem;
     }
 
     &:nth-child(3) {
       justify-self: flex-end;
+      position: relative;
       top: 3.5rem;
     }
 

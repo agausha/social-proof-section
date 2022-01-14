@@ -202,6 +202,7 @@ body {
   background: #502050;
   padding: 3rem;
   width: 31%;
+  position: relative;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -209,11 +210,13 @@ body {
 .testimonial-cards .card:nth-child(2) {
   -ms-grid-column-align: center;
       justify-self: center;
+  position: relative;
   top: 2rem;
 }
 
 .testimonial-cards .card:nth-child(3) {
   justify-self: flex-end;
+  position: relative;
   top: 3.5rem;
 }
 
